@@ -1,0 +1,11 @@
+spring.application.name=hotelreservation
+
+spring.data.mongodb.uri=mongodb+srv://mbaasatheef_db_user:E7FfqYNTvR93EBBA@diluni.qag9ubk.mongodb.net/oceanview?retryWrites=true&w=majority 
+spring.data.mongodb.database=oceanview
+
+
+
+# Optional: show MongoDB queries in console
+ 
+logging.level.org.springframework.data.mongodb.core.MongoTemplate=DEBUG
+logging.level.org.mongodb.driver=DEBUG
